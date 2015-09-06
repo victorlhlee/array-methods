@@ -77,7 +77,11 @@ var updatedOrders = orderQueue.concat(addOrder);
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
 
-//slice copy a range of elements from an array
+//slice copy a range of elements from an array returns a new array with defined range of elements
 var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
 var favoriteFriends = friends.slice(1, 3);
 var owesMoney = friends.slice(3, 6);
+
+//toString copy a range of elements from an array returns a new string with all element in array
+var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
+var monthNameString = monthNames.toString();

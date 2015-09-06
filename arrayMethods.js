@@ -85,3 +85,7 @@ var owesMoney = friends.slice(3, 6);
 //toString copy a range of elements from an array returns a new string with all element in array
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var monthNameString = monthNames.toString();
+
+//indexOf find the index of the element in an array
+var favoriteColor = colors.indexOf('Red');
+var favoriteEvenNumber = mixedNums.indexOf(76);

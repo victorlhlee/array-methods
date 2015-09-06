@@ -77,4 +77,7 @@ var updatedOrders = orderQueue.concat(addOrder);
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
 
-
+//slice copy a range of elements from an array
+var friends = ['Todd', 'Jacoby', 'Miko', 'Joseph', 'Kevin', 'Todd C.'];
+var favoriteFriends = friends.slice(1, 3);
+var owesMoney = friends.slice(3, 6);

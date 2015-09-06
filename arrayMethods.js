@@ -89,3 +89,8 @@ var monthNameString = monthNames.toString();
 //indexOf find the index of the element in an array
 var favoriteColor = colors.indexOf('Red');
 var favoriteEvenNumber = mixedNums.indexOf(76);
+
+//lastIndexOf returns a number of the index where element was found
+var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
+var lastNine = bulkNumbers.lastIndexOf(9);
+var lastFive = bulkNumbers.lastIndexOf(5);

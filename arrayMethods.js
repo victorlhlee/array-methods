@@ -66,3 +66,9 @@ var theNewBrown = brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
 var orderedValues = [4, 5, 6, 7, 8, 9, 10];
 var theNewOrder = orderedValues.unshift(1, 2, 3);
 var orderedValuesNewLength = orderedValues.length;
+
+//concat takes a new array and merges it with the calling array
+var randomThingsArray = genericNumberArray.concat(colors);
+
+var addOrder = [{takeOut: "pizza"}, {takeOut: 'fries'}];
+var updatedOrders = orderQueue.concat(addOrder);
